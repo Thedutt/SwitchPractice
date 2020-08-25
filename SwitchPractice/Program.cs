@@ -9,21 +9,21 @@ namespace SwitchPractice
             Console.WriteLine("What is your favorite school subject?");
             var favSubject = Console.ReadLine();
 
-            switch (favSubject)
+            switch (favSubject.ToLower())
             {
-                case "English":
+                case "english":
                     Console.WriteLine("Ew why would you like that");
                     break;
-                case "Math":
+                case "math":
                     Console.WriteLine("Ok math is tough but doable");
                     break;
-                case "Science":
+                case "science":
                     Console.WriteLine("Yea science is pretty cool");
                     break;
-                case "History":
+                case "history":
                     Console.WriteLine("Yay that was my favorite subject as well");
                     break;
-                case "Gym":
+                case "gym":
                     Console.WriteLine("Yea thats not really a subject and you know it");
                     break;
                 default:
